@@ -1,9 +1,10 @@
+import  Calendar from './class-components';
 import { Content, Footer, Header } from './func-components';
 import React from 'react'
 
 function App() {
 return(
-   [<Header/>,<Content/>,<Footer/>]
+   [<Header/>,<p><center><Calendar/></center></p>,<Content/>,<Footer/>]
    
    
 )
