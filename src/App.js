@@ -1,13 +1,16 @@
-
-
-
+import './App.css';
 import React from 'react'
-import RefsArray from './refs-array'
-import StateFunc from './state-func';
-
+import { userContext } from './context';
+import Content from './context-content';
+ 
 function App() {
-return <StateFunc/>
-  }
-
-
+  return (
+    <userContext.Provider value="Tom Jerry">
+      <Content/>
+    </userContext.Provider>
+  );
+}
+ 
 export default App;
+ 
+ 
