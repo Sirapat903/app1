@@ -23,7 +23,7 @@ export default function Router2() {
         Member</NavLink> -&nbsp;
  
         <NavLink to="/contact" className={({ isActive }) => isActive ? "active_menu" : "menu"} >
-        Contact</NavLink>
+        Contact US</NavLink>
  
       </nav>
     </BrowserRouter>
